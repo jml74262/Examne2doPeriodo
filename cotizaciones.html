@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="csss/styles.css">
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <title>Examen</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0e60a3;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/LogoD.png" alt="logo" width="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav" >
+            <ul class="navbar-nav" >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cotizaciones.html">Cotizaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="global">
+     <div class="global_2">
+      <div class="calcular">
+        <h1>Calcula tu destino</h1>
+      </div>
+      <div class ="centrar">
+        
+        <div class="formulario" id="cot">
+          <form>
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">Destino</label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Elige tu próxima aventura</option>
+              <option value="1">Aguascalientes</option>
+              <option value="2">Baja California</option>
+              <option value="3">Baja California Sur</option>
+              <option value="4">Campeche</option>
+              <option value="5">Coahuila de Zaragoza</option>
+              <option value="6">Colima</option>
+              <option value="7">Chiapas</option>
+              <option value="8">Chihuahua</option>
+              <option value="9">Estado de México</option>
+              <option value="10">Durango</option>
+              <option value="11">Guerrero</option>
+              <option value="12">Hidalgo</option>
+              <option value="13">Jalisco</option>
+              <option value="14">México</option>
+              <option value="15">Michoacán de Ocampo</option>
+              <option value="16">Morelos</option>
+              <option value="17">Nayarit</option>
+              <option value="18">Nuevo León</option>
+              <option value="19">Oaxaca</option>
+              <option value="20">Puebla</option>
+              <option value="21">Querétaro</option>
+              <option value="22">Quintana Roo</option>
+              <option value="23">San Luis Potosí</option>
+              <option value="24">Sinaloa</option>
+              <option value="25">Sonora</option>
+              <option value="26">Tabasco</option>
+              <option value="27">Tamaulipas</option>
+              <option value="28">Tlaxcala</option>
+              <option value="29">Veracruz de Ignacio de la Llave</option>
+              <option value="30">Yucatán</option>
+              <option value="31">Zacatecas</option>
+            </select>
+          </div>
+          <div class="clearfix"></div>
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect02">Días de estancia</label>
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>Elige la duración de tu viaje</option>
+              <option value="1">1 día</option>
+              <option value="2">2 días</option>
+              <option value="3">3 días</option>
+              <option value="4">4 días</option>
+              <option value="5">5 días</option>
+              <option value="6">6 días</option>
+              <option value="7">7 días</option>
+              <option value="8">8 días</option>
+              <option value="9">9 días</option>
+              <option value="10">10 días</option>
+            </select>
+          </div>
+          <div class="clearfix"></div>
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect03">Adultos</label>
+            <select class="form-select" id="inputGroupSelect03">
+              <option selected>Número de adultos</option>
+              <option value="1">1 adulto</option>
+              <option value="2">2 adultos</option>
+              <option value="3">3 adultos</option>
+              <option value="4">4 adultos</option>
+              <option value="5">5 adultos</option>
+              <option value="6">6 adultos</option>
+              <option value="7">7 adultos</option>
+              <option value="8">8 adultos</option>
+              <option value="9">9 adultos</option>
+              <option value="10">10 adultos</option>
+            </select>
+          </div>
+          <div class="clearfix"></div>
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect04">Niños</label>
+            <select class="form-select" id="inputGroupSelect04">
+              <option selected>Número de niños</option>
+              <option value="1">1 niño</option>
+              <option value="2">2 niños</option>
+              <option value="3">3 niños</option>
+              <option value="4">4 niños</option>
+              <option value="5">5 niños</option>
+              <option value="6">6 niños</option>
+              <option value="7">7 niños</option>
+              <option value="8">8 niños</option>
+              <option value="9">9 niños</option>
+              <option value="10">10 niños</option>
+            </select>
+          </div>
+          <div class="clearfix"></div>
+
+          <input  formaction="detalle.html" class="btn btn-primary" type="submit" value="Calcular">
+          
+
+        </form>
+          <div class="clearfix"></div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+    <footer class="footer" style="background-color: #3f3f3f;">
+      <p>Examen por "Los codificadores del mal"&copy</p>
+
+    </footer> 
+
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -53,8 +53,8 @@ $(document).ready(function () {
     let ab_p = $("#about p");
     var total =0;
     var precioDestino=0;
-    var precioAdulto = 200;
-    var precioNino = 150;
+    var precioAdulto = 100;
+    var precioNino = 50;
     var precioK=150;
     var destino="";
     var ruta="";
